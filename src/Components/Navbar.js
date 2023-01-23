@@ -1,10 +1,10 @@
 import React from 'react';
 
-function Navbar({ currentPage, handlePageChange}) {
+function NavBar({ currentPage, handlePageChange }) {
     return(
         <ul className='nav '
     )
        
 }
 
-export default function Navbar() {}
+export default function NavBar() {}
