@@ -1,11 +1,11 @@
 import React from "react";
-import headshot from "./Headshot.jpg";
+import headshot from "../Images/Headshot.jpg";
 
 export default function AboutMe() {
   return (
       <section id="about">
         <img
-          className="materialboxed"
+          id="bio-photo"
           src={headshot}
           alt="Brian Chapman Headshot"
         ></img>
