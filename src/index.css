@@ -4,7 +4,7 @@ body {
   }
   
 
-  li {
-    font-size: 20px;
+  a, li {
+    font-size: 30px;
   }
 

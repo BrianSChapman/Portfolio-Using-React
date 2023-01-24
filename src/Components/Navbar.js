@@ -2,6 +2,7 @@ import React from "react";
 
 function NavBar({ currentPage, handlePageChange }) {
   return (
+    
     <nav>
       <div className="nav-wrapper cyan darken-2 ">
         <a href="#Home" className="brand-logo">
@@ -31,16 +32,18 @@ function NavBar({ currentPage, handlePageChange }) {
               href="#Contact"
               onClick={() => handlePageChange("Contact")}
               className={currentPage === "Contact" ? "active" : "nav-link"}
-            ></a>
+              >
             Contact
+            </a>
           </li>
           <li>
             <a
               href="#Resume"
               onClick={() => handlePageChange("Resume")}
               className={currentPage === "Resume" ? "active" : "nav link"}
-            ></a>
+            >
             Resume
+            </a>
           </li>
         </ul>
       </div>

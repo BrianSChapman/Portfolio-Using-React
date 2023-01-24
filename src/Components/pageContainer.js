@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import NavBar from "./NavBar";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
-import Footer from "./Footer";
 import Projects from "./Projects";
 import Resume from "./Resume";
 
