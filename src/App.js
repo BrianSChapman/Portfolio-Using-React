@@ -1,15 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PageContainer from './Components/pageContainer';
-import Footer from './Components/Footer'
-
+import '../src/index.css'
 
  const App = () => {
  return ( 
   <main>
    <PageContainer />
-    <Footer />
     </main>
  );
 }
+
 
 export default App;

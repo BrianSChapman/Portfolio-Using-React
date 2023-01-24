@@ -8,6 +8,7 @@ function NavBar({ currentPage, handlePageChange }) {
         <a href="#Home" className="brand-logo">
           Brian S. Chapman
         </a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
           <li>
             <a

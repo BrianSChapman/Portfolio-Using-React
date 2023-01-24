@@ -41,9 +41,10 @@ export default function Contact() {
   return (
     <section className=" container">
       <div className="row">
-        <form className="col s12">
-          <div className="row">
-            <div className="input-field col s12">
+        <form className="col s12 m7">
+          <div className="card red accent-1">
+            <div className="card-content"></div>
+            <div className="input-field">
               <input placeholder="Placeholder" id="name" type="text">
                 <label for="first_name">Your Name</label>
               </input>
@@ -51,12 +52,12 @@ export default function Contact() {
           </div>
         </form>
         <div className="row">
-          <div className="input-field col s12">
+          <div className="input-field">
             <input id="email" type="email" class="validate"></input>
             <label for="email">Email</label>
           </div>
           <div className="row">
-            <form className="col s12">
+            <form className="col">
               <div className="row">
                 <div className="input-field col s12">
                   <textarea

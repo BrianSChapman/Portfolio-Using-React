@@ -3,8 +3,21 @@ body {
     background-color: #ebe1d0 ; color: #0b2e38;
   }
   
+  #bio-photo {
+    width: 300px;
+    border-radius: 5px;
 
-  a, li {
-    font-size: 30px;
   }
+ 
+  
 
+
+  /* Color palette to mess with */
+  
+  section {
+    color: #264653;
+    color: #2A9D8F;
+    color: #E9C46A;
+    color: #F4A261;
+    color: #E76F51;
+  }
