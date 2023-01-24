@@ -1,3 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body { 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ebe1d0 ; color: #0b2e38;
+  }
+
+.nav-wrapper {
+    background-color: #609aad;
+    margin-bottom: 150px;
+}
