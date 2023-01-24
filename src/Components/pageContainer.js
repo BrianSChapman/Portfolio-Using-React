@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import Projects from "./Projects";
 import Resume from "./Resume";
 
-export default function pageContainer() {
+export default function PageContainer() {
   const [currentPage, setCurrentPage] = useState("AboutMe");
 
   const renderPage = () => {

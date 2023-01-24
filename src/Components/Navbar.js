@@ -15,7 +15,7 @@ function NavBar({ currentPage, handlePageChange }) {
                       <a
                           href="#AboutMe"
                           onClick={() => handlePageChange("AboutMe")}
-                          className={currentPage === "AboutMe" ? "active" : "nav-link"}
+                          className={currentPage === "AboutMe" ? "nav-link active" : "nav-link"}
                       >
                           About Me
                       </a>
@@ -24,7 +24,7 @@ function NavBar({ currentPage, handlePageChange }) {
                       <a
                           href="#Projects"
                           onClick={() => handlePageChange("Projects")}
-                          className={currentPage === "Projects" ? "active" : "nav-link"}
+                          className={currentPage === "Projects" ? "nav-link active" : "nav-link"}
                       >
                           Projects
                       </a>
@@ -33,7 +33,7 @@ function NavBar({ currentPage, handlePageChange }) {
                       <a
                           href="#Contact"
                           onClick={() => handlePageChange("Contact")}
-                          className={currentPage === "Contact" ? "active" : "nav-link"}
+                          className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
                       ></a>
                       Contact
                   </li>
