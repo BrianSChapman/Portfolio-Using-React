@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { validateEmail } from "../utils/helpers";
 
 export default function Contact() {
-  const [Name, setName] = useState("");
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
@@ -20,15 +20,15 @@ export default function Contact() {
       setMessage(inputValue);
     } else {
       setErrorMessage(
-        "Please fill out all fields of the form. Appreciate you!"
+        "Please fill out all fields of the form. Appreciate you! :)"
       );
     }
   };
   const handleFormSubmit = (event) => {
     event.preventDefault();
-    if (!validateEmail(email) || !Name) {
+    if (!validateEmail(email) || !name) {
       setErrorMessage(
-        "Please provide a valid name and email address. Thanks friend!"
+        "Please provide a valid name and email address. Thank you! :)"
       );
       return;
     }
@@ -39,13 +39,14 @@ export default function Contact() {
   };
 
   return (
-    <section>
+    <section className="container">
       <form>
         <div className="mb-3">
           <label for="exampleFormControlInput1" className="form-label">
             Name
           </label>
           <input
+            value={name}
             type="text"
             className="form-control"
             onChange={handleInputChange}
@@ -58,6 +59,7 @@ export default function Contact() {
             Email address
           </label>
           <input
+            value={email}
             type="email"
             className="form-control"
             onChange={handleInputChange}
@@ -67,9 +69,10 @@ export default function Contact() {
         </div>
         <div className="mb-3">
           <label for="exampleFormControlTextarea1" className="form-label">
-            Example textarea
+            Your Message
           </label>
           <textarea
+            value={message}
             className="form-control"
             onChange={handleInputChange}
             id="exampleFormControlTextarea1"
@@ -77,11 +80,20 @@ export default function Contact() {
           ></textarea>
         </div>
         <div className="col-12">
-          <button type="button" onClick={handleFormSubmit} className="btn btn-success-emphasis">
+          <button
+            type="button"
+            onClick={handleFormSubmit}
+            className="btn btn-success-emphasis"
+          >
             Send Message
           </button>
         </div>
       </form>
+      {errorMessage && (
+        <div>
+          <p className="error-text">{errorMessage}</p>
+        </div>
+      )}
     </section>
   );
 }

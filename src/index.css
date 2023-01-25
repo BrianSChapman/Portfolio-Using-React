@@ -6,8 +6,12 @@ body {
   #bio-photo {
     width: 300px;
     border-radius: 5px;
+}
 
-  }
+#flamingo {
+  width: 30px;
+  height: 24px;
+}
  
   
 
