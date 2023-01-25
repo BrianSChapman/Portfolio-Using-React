@@ -3,7 +3,7 @@ import headshot from "../Images/Headshot.jpg";
 
 export default function AboutMe() {
   return (
-    <section id="about" className="section">
+    <section id="about">
 
         <div className="card">
           <div className="card-image waves-effect waves-block waves-light">
@@ -13,8 +13,7 @@ export default function AboutMe() {
               src={headshot}
               alt="Brian Chapman Headshot"
             ></img>
-             
-            <span className="card-title activator" id="bio-card">Hi! I'm Brian.</span>
+            
             <div className="card-reveal">
             <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
       <p>Here is some more information about this product that is only revealed once clicked on.</p>  

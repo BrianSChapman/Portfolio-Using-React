@@ -32,53 +32,53 @@ export default function Contact() {
       );
       return;
     }
-    setName = "";
-    setEmail = "";
-    setMessage = "";
-    setErrorMessage = "";
+    // setName = "";
+    // setEmail = "";
+    // setMessage = "";
+    // setErrorMessage = "";
   };
 
   return (
-    <section className=" container">
-      <div className="row">
-        <form className="col s12 m7">
-          <div className="card red accent-1">
-            <div className="card-content"></div>
-            <div className="input-field">
-              <input placeholder="Placeholder" id="name" type="text">
-                <label for="first_name">Your Name</label>
-              </input>
-            </div>
-          </div>
-        </form>
-        <div className="row">
-          <div className="input-field">
-            <input id="email" type="email" class="validate"></input>
-            <label for="email">Email</label>
-          </div>
-          <div className="row">
-            <form className="col">
-              <div className="row">
-                <div className="input-field col s12">
-                  <textarea
-                    id="textarea1"
-                    class="materialize-textarea"
-                  ></textarea>
-                  <label for="textarea1">Your message</label>
-                </div>
-              </div>
-              <button
-                className="btn waves-effect waves-light"
-                type="submit"
-                name="action"
-              >
-                Submit
-                <i className="material-icons right">send</i>
-              </button>
-            </form>
-          </div>
+    <section>
+      <form>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">
+            Name
+          </label>
+          <input
+            type="text"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          ></input>
         </div>
-      </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">
+            Email address
+          </label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="name@example.com"
+          ></input>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">
+            Example textarea
+          </label>
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-success-emphasis">
+            Send
+          </button>
+        </div>
+      </form>
     </section>
   );
 }
