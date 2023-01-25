@@ -8,7 +8,7 @@ function NavBar({ currentPage, handlePageChange }) {
         <a href="#Home" className="navbar-brand">
         Brian S. Chapman
         </a>
-        <ul className="nav-bar nav">
+        <ul className="nav nav-bar">
           <li className="nav-item">
             <a
               href="#AboutMe"

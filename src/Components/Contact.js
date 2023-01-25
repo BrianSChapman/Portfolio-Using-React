@@ -12,7 +12,7 @@ export default function Contact() {
     const inputType = target.name;
     const inputValue = target.value;
 
-    if (inputType === "Name") {
+    if (inputType === "name") {
       setName(inputValue);
     } else if (inputType === "email") {
       setEmail(inputValue);
@@ -32,14 +32,12 @@ export default function Contact() {
       );
       return;
     }
-    setName = "";
-    setEmail = "";
-    setMessage = "";
-    setErrorMessage = "";
+  
   };
 
   return (
     <section className="container">
+      <h1>Say hey!</h1>
       <form>
         <div className="mb-3">
           <label for="exampleFormControlInput1" className="form-label">
@@ -51,8 +49,9 @@ export default function Contact() {
             className="form-control"
             onChange={handleInputChange}
             id="exampleFormControlInput1"
-            placeholder=""
-          ></input>
+            placeholder="Your Name"
+            required
+          />
         </div>
         <div className="mb-3">
           <label for="exampleFormControlInput1" className="form-label">
@@ -65,7 +64,8 @@ export default function Contact() {
             onChange={handleInputChange}
             id="exampleFormControlInput1"
             placeholder="name@example.com"
-          ></input>
+            required
+          />
         </div>
         <div className="mb-3">
           <label for="exampleFormControlTextarea1" className="form-label">
@@ -77,23 +77,22 @@ export default function Contact() {
             onChange={handleInputChange}
             id="exampleFormControlTextarea1"
             rows="3"
-          ></textarea>
+          />
         </div>
         <div className="col-12">
           <button
             type="button"
             onClick={handleFormSubmit}
-            className="btn btn-success-emphasis"
-          >
+            className="btn btn-success-emphasis">
             Send Message
           </button>
         </div>
       </form>
       {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
-        </div>
+            <p className="error-text">{errorMessage}</p>
+            </div> 
       )}
     </section>
   );
-}
+      }
