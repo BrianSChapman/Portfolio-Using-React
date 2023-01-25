@@ -32,50 +32,53 @@ export default function Contact() {
       );
       return;
     }
-    // setName = "";
-    // setEmail = "";
-    // setMessage = "";
-    // setErrorMessage = "";
+    setName = "";
+    setEmail = "";
+    setMessage = "";
+    setErrorMessage = "";
   };
 
   return (
     <section>
       <form>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">
+        <div className="mb-3">
+          <label for="exampleFormControlInput1" className="form-label">
             Name
           </label>
           <input
             type="text"
-            class="form-control"
+            className="form-control"
+            onChange={handleInputChange}
             id="exampleFormControlInput1"
-            placeholder="name@example.com"
+            placeholder=""
           ></input>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">
+        <div className="mb-3">
+          <label for="exampleFormControlInput1" className="form-label">
             Email address
           </label>
           <input
             type="email"
-            class="form-control"
+            className="form-control"
+            onChange={handleInputChange}
             id="exampleFormControlInput1"
             placeholder="name@example.com"
           ></input>
         </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label">
+        <div className="mb-3">
+          <label for="exampleFormControlTextarea1" className="form-label">
             Example textarea
           </label>
           <textarea
-            class="form-control"
+            className="form-control"
+            onChange={handleInputChange}
             id="exampleFormControlTextarea1"
             rows="3"
           ></textarea>
         </div>
-        <div class="col-12">
-          <button type="submit" class="btn btn-success-emphasis">
-            Send
+        <div className="col-12">
+          <button type="button" onClick={handleFormSubmit} className="btn btn-success-emphasis">
+            Send Message
           </button>
         </div>
       </form>

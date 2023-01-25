@@ -5,32 +5,22 @@ export default function AboutMe() {
   return (
     <section id="about">
 
-        <div className="card">
-          <div className="card-image waves-effect waves-block waves-light">
-          <div className="card-content">
-            <img className="activator"
+        <div className="card mb-3 text-bg-dark">
+          <div className="row g-0">
+          <div className="col-md-4">
+            <img className="img-fluid rounded-start"
               id="bio-photo"
               src={headshot}
               alt="Brian Chapman Headshot"
             ></img>
-            
-            <div className="card-reveal">
-            <span className="card-title grey-text text-darken-4">Card Title<i className="material-icons right">close</i></span>
-      <p>Here is some more information about this product that is only revealed once clicked on.</p>  
-            <h1>About Page</h1>
-            <p>
-              Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-              Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean
-              sed mollis diam. Nunc aliquet risus ac finibus porta. Nam quis
-              arcu non lectus tincidunt fermentum. Suspendisse aliquet orci
-              porta quam semper imperdiet. Praesent euismod mi justo, faucibus
-              scelerisque risus cursus in. Sed rhoncus mollis diam, sit amet
-              facilisis lectus blandit at.
-            </p>
-          </div>
-          </div>
-        </div>
-      </div>
-    </section>
+            </div>
+            <div className="col-md-8">
+                <h5 className="card-title">About Me</h5>
+                <p className="card-text"> This is some info I'll fill out later.....</p>
+                <p className="card-text"><small className="text-muted">It's a pleasure to meet you!</small></p>
+                </div>
+                </div>
+            </div>
+        </section>
   );
 }
