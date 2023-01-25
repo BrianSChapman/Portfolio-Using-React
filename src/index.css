@@ -1,26 +1,29 @@
 body { 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #ebe1d0 ; color: #0b2e38;
+    background-color: #ebe1d0
   }
-  
+  /* About Me Photo */
   #bio-photo {
     width: 300px;
     border-radius: 5px;
 }
-
-#flamingo {
-  width: 30px;
-  height: 24px;
+  /* Projects Images */
+.card-image-top {
+  width:100%;
+  height: 40vh;
+  object-fit: contain;
 }
- 
-  
+
+header {
+  background-color:#1ea1aa;
+}
+
 
 
   /* Color palette to mess with */
   
   section {
     color: #264653;
-    color: #2A9D8F;
     color: #E9C46A;
     color: #F4A261;
     color: #E76F51;

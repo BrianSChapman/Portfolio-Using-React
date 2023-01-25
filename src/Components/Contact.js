@@ -37,7 +37,7 @@ export default function Contact() {
 
   return (
     <section className="container">
-      <h1>Say hey!</h1>
+      <h1>Say Hey!</h1>
       <form>
         <div className="mb-3">
           <label for="exampleFormControlInput1" className="form-label">

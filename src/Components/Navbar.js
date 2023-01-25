@@ -2,8 +2,8 @@ import React from "react";
 
 function NavBar({ currentPage, handlePageChange }) {
   return (
-    
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <header>
+    <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
         <a href="#Home" className="navbar-brand">
         Brian S. Chapman
@@ -48,6 +48,7 @@ function NavBar({ currentPage, handlePageChange }) {
         </ul>
       </div>
     </nav>
+    </header>
   );
 }
 

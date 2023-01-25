@@ -1,5 +1,8 @@
 import React from "react";
 import petPlayDate from "../Images/petPlayDate.png"
+import noteTaker from "../Images/noteTaker.png"
+import wordOfMyLife from "../Images/wordOfMyLife.png"
+import textEditor from "../Images/textEditor.png"
 
 export default function Projects() {
   return (
@@ -11,7 +14,7 @@ export default function Projects() {
             <img src={petPlayDate} className="card-img-top" alt="Pet Play Date App Screenshot"></img>
             <div className="card-body">
               <h5 className="card-title text-center">Card title</h5>
-              <p className="card-text">
+              <p className="card-text text-center">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
@@ -25,10 +28,10 @@ export default function Projects() {
 
         <div className="col-6">
           <div className="card mb-3 project-card">
-            <img src="..." className="card-img-top" alt="..."></img>
+            <img src={wordOfMyLife} className="card-img-top" alt="Word of My Life app image"></img>
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
+              <h5 className="card-title text-center">Card title</h5>
+              <p className="card-text text-center">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
@@ -43,10 +46,10 @@ export default function Projects() {
       <div className="row">
         <div className="col-6">
           <div className="card mb-3 project-card">
-            <img src="..." className="card-img-top" alt="..."></img>
+            <img src={textEditor} className="card-img-top" alt="..."></img>
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <p className="card-text">
+              <h5 className="card-title text-center">Card title</h5>
+              <p className="card-text text-center">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
@@ -60,10 +63,10 @@ export default function Projects() {
 
         <div className="col-6">
           <div className="card mb-3 project-card">
-            <img src="..." className="card-img-top" alt="..."></img>
+            <img src={noteTaker} className="card-img-top" alt="..."></img>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
+              <h5 class="card-title text-center">Card title</h5>
+              <p class="card-text text-center">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer.
