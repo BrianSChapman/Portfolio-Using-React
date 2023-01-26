@@ -1,6 +1,6 @@
-body { 
+main, body { 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #ebe1d0
+    background-color: #ebe1d0;
   }
   /* About Me Photo */
   #bio-photo {
@@ -14,17 +14,32 @@ body {
   object-fit: contain;
 }
 
-header {
+header, footer {
   background-color:#1ea1aa;
+  border-bottom: #264653 1px;
+  border-top:#264653 1px; 
+  box-shadow: #264653 1px;
 }
 
 
 
+
+
+
+
   /* Color palette to mess with */
-  
+/*   
   section {
     color: #264653;
     color: #E9C46A;
     color: #F4A261;
     color: #E76F51;
-  }
+  } */
+
+  /* Dark Mode Colors */
+  /* section {
+    color: #1B3A4B;
+    color:  #065A60;
+    color: #312244;
+    color: #654c6c
+  } */
