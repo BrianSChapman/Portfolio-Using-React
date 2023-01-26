@@ -26,4 +26,4 @@ Here's a quick screenshot of the portfolio page below and a the link to the depl
 
 ## License
 
-This project is covered with the MIT license.
+This project is covered with the MIT license. 
