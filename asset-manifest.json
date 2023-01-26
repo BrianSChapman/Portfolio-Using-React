@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/BrianSChapman/if-brian-were-a-react-app/static/css/main.8468475f.css",
+    "main.js": "/BrianSChapman/if-brian-were-a-react-app/static/js/main.5b74c53f.js",
+    "static/media/petPlayDate.png": "/BrianSChapman/if-brian-were-a-react-app/static/media/petPlayDate.2efcad0ecd81c630c866.png",
+    "static/media/BrianSChapmanResume.png": "/BrianSChapman/if-brian-were-a-react-app/static/media/BrianSChapmanResume.806ec554ce858a7dd1e9.png",
+    "static/media/Headshot.jpg": "/BrianSChapman/if-brian-were-a-react-app/static/media/Headshot.4411c72dc909e4f7d833.jpg",
+    "static/media/wordOfMyLife.png": "/BrianSChapman/if-brian-were-a-react-app/static/media/wordOfMyLife.a6ff4781a67cea1d3f77.png",
+    "static/media/spotifyLogo.png": "/BrianSChapman/if-brian-were-a-react-app/static/media/spotifyLogo.cd2c2228d20d582d5ef5.png",
+    "static/media/textEditor.png": "/BrianSChapman/if-brian-were-a-react-app/static/media/textEditor.579d63e31d1d0b510b65.png",
+    "static/media/noteTaker.png": "/BrianSChapman/if-brian-were-a-react-app/static/media/noteTaker.8ff301faf5f92caa396d.png",
+    "index.html": "/BrianSChapman/if-brian-were-a-react-app/index.html",
+    "main.8468475f.css.map": "/BrianSChapman/if-brian-were-a-react-app/static/css/main.8468475f.css.map",
+    "main.5b74c53f.js.map": "/BrianSChapman/if-brian-were-a-react-app/static/js/main.5b74c53f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8468475f.css",
+    "static/js/main.5b74c53f.js"
+  ]
+}
