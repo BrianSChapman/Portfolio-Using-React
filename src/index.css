@@ -1,11 +1,12 @@
-main, body { 
+main { 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #ebe1d0;
   }
   /* About Me Photo */
   #bio-photo {
-    width: 300px;
     border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 45px;
 }
   /* Projects Images */
 .card-image-top {
@@ -14,6 +15,25 @@ main, body {
   object-fit: contain;
 }
 
+#bio-card {
+  background-color: #F4A261;
+  color: #312244;
+}
+
+#resume-img{
+
+  border-radius: 5px;
+  width:600px;
+  height: 750px;
+}
+
+.github-logo {
+  width: 45px;
+  height: 45px;
+}
+
+
+
 header, footer {
   background-color:#1ea1aa;
   border-bottom: #264653 1px;
@@ -21,25 +41,37 @@ header, footer {
   box-shadow: #264653 1px;
 }
 
+footer {
+  position:fixed;
+  bottom: 0px;
+}
 
 
+
+
+
+/* Position the card perfectly but it's too small. */
+/* position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); */
 
 
 
 
   /* Color palette to mess with */
-/*   
+ 
   section {
     color: #264653;
     color: #E9C46A;
     color: #F4A261;
     color: #E76F51;
-  } */
+  } 
 
   /* Dark Mode Colors */
-  /* section {
+  section {
     color: #1B3A4B;
     color:  #065A60;
     color: #312244;
     color: #654c6c
-  } */
+  }

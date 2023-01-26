@@ -14,7 +14,7 @@ export default function PageContainer() {
     if (currentPage === "AboutMe") {
       return <AboutMe />;
     }
-    if (currentPage === "Projects") {
+    if (currentPage === "Portfolio") {
       return <Portfolio />;
     }
     if (currentPage === "Contact") {
@@ -26,7 +26,7 @@ export default function PageContainer() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div className="main-body">
 
       <NavBar
         currentPage={currentPage}

@@ -81,9 +81,9 @@ export default function Contact() {
         </div>
         <div className="col-12">
           <button
-            type="button"
+            type="submit"
             onClick={handleFormSubmit}
-            className="btn btn-success-emphasis">
+            className="btn ">
             Send Message
           </button>
         </div>
