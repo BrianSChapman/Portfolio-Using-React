@@ -1,9 +1,7 @@
 import React from "react";
-
-const linkedinBtn = document.getElementById("linkedin-btn");
-const githubBtn = document.getElementById("github-btn");
-const spotifyBtn = document.getElementById("spotify-btn");
-
+import linkedinLogo from '../Images/linkedin.png'
+import githubLogo from '../Images/githubIcon.png'
+import spotifyLogo from '../Images/spotifyLogo.png'
 
 
 export default function Footer() {
@@ -13,7 +11,7 @@ export default function Footer() {
         <button type="submit" className="btn btn-outline-dark" id="linkedin-btn">
           LinkedIn
         </button>
-        <button type="submit" className="btn btn-outline-dark bi bi-github" id="github-btn"><i className="bi bi-github"></i>
+        <button type="submit" className="btn btn-outline-dark bi bi-github" id="github-btn">
           GitHub
         </button>
         <button type="submit" className="btn btn-outline-dark" id="spotify-btn">
