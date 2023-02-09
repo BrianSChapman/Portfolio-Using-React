@@ -78,12 +78,13 @@ footer {
   border-radius: 5px;
   border: solid 1px var(--dark-orange);
   background-color: var(--blue);
+  z-index: index 2;
+  width: 65%;
 }
 
 #form-btn {
   border-radius:8px;
   border: solid 1px var(--dark-purple);
-  margin-bottom: 2%;
   background-color: var(--dark-orange);
 }
 
@@ -95,7 +96,19 @@ input {
   border:var(--dark-purple);
 }
 
-  /* Color palette to mess with */
+#flamingo {
+  width: 175px;
+  margin:0% auto;
+  display: block;
+  position: relative;
+  bottom: 45px;
+}
+
+/* #plant-img {
+  z-index: index -1;
+} */
+
+
 
   /* Dark Mode Colors */
   section {
@@ -104,3 +117,5 @@ input {
     color: #312244;
     color: #654c6c
   }
+
+  /*  todo: make list of items for resume and then just put a downloadable link. Rework card for About me and make it just on the page. Maybe a parallax photo? */

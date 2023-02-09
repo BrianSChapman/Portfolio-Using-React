@@ -14,7 +14,7 @@ export default function Portfolio() {
   return (
     <section id="portfolio" className="container">
         <h1 className="text-center">Projects</h1>
-        <p className="text-center">(Click the image for deployment or the icon to check out the codebase)</p>
+        <p className="text-center mt-2 pb-2">(Click the image for deployment or the icon to check out the codebase)</p>
       <div className="row">
        <ProjectCard title="Pet Play Date" img={ petPlayDate } Alt="Pet Play Date App Screenshot" description ="Collaboration on a full-stack app. Create a profile for your pet, match profiles with other pet owners in your area, and schedule pet play dates!" githubLink ="https://github.com/BrianSChapman/pet-playdate"
               deployment="https://salty-sierra-16506.herokuapp.com/"  />

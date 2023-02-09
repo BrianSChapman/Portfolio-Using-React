@@ -1,6 +1,8 @@
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { validateEmail } from "../utils/helpers";
+// import leafyboi from "../Images/leafyboi.png"
+import flamingo from "../Images/flamingo.png";
 
 export default function Contact() {
   const form = useRef();
@@ -38,9 +40,12 @@ export default function Contact() {
   };
 
   return (
+    <>
     <section className="container form-container shadow-lg">
       {sent ? (
-        <h1 className="text-center mt-3 email-header">Thanks for dropping a line!</h1>
+        <>        <h1 className="text-center mt-3 email-header">Thanks for dropping a line!</h1>
+        <img className src={flamingo} id="flamingo"></img>
+        </>
       ) : (
         <>
           <h1 className="text-center mt-3 email-header">Say Hey!</h1>
@@ -100,6 +105,9 @@ export default function Contact() {
       <div>
         <p className="error-text"></p>
       </div>
+      <img className src={flamingo} id="flamingo"></img>
     </section>
+   
+     </>
   );
 }

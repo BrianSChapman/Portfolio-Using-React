@@ -3,6 +3,7 @@ import headshot from "../Images/Headshot.jpg";
 
 export default function AboutMe() {
   return (
+    
     <section id="about" className="container">
       <div className="row align-items-center"></div>
       <div className="col-9">

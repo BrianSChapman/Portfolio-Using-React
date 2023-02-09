@@ -1,12 +1,15 @@
 import React from "react";
 import githubIcon from "../Images/githubIcon.png";
+import "../Components/ProjectCardEffect.css";
+
+
 
 //  can also just pass in props as the argument dor ProjectCard and use dot notation for each props (ie props.img, prop.alt, etc)
 export default function ProjectCard({ title, img, alt, description, githubLink, deployment}) {
-    
+
 return ( 
     <div className="col-6">
-      <div className="card mb-3 project-card shadow">
+      <div className="card mb-3 project-card shadow ">
         <a href={deployment} target="_blank">
         <img src={img}
           className="card-img-top"
