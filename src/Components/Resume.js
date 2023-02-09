@@ -6,7 +6,7 @@ export default function Resume() {
         <section className="container text-center">
             <h3>Click the image below to download!</h3>
             <a href="https://drive.google.com/file/d/1EzeIsIfRffSQW2hMPxvPcD9YEjtmGgV2/view?usp=sharing" target="_blank">
-                <img src={resume} id="resume-img" alt="Image of Brian's resume"></img>
+                <img src={resume} id="resume-img" className="shadow" alt="Image of Brian's resume"></img>
             </a>
         </section>
     );

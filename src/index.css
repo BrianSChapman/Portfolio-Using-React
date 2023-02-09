@@ -1,32 +1,50 @@
 :root {
   --blue: #0FA3B1;
-  --cream: #D9E5D6;
+  --cream: #f3f2e6;
   --yellow: #EDDEA4;
   --light-orange: #F7A072;
   --dark-orange: #FF9B42;
+  --dark-purple: #322246;
 }
 
+.main-body, body, main { 
+  font-family: 'Raleway', sans-serif;
+  background-color:var(--cream);
+}
 
-.main-body { 
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color:var(--cream);
-  }
+nav {
+  margin: 0 0 7% 2%;
+}
+
+#nav-name {
+  font-family: 'Megrim', cursive;
+  text-decoration: none;
+  color: var(--blue);
+  font-size: 60px;
+}
+
+#nav-list {
+  color:var(--dark-purple);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#nav-list:hover {
+  color: var(--blue);
+  border-bottom:solid 2px var(--dark-orange);
+}
+
   /* About Me Photo */
   #bio-photo {
     border-radius: 5px;
-    margin-left: 10px;
+    margin-left: 10px ;
     margin-top: 45px;
-}
-  /* Projects Images */
-.card-image-top {
-  width:100%;
-  height: 40vh;
-  object-fit: contain;
 }
 
 #bio-card {
   background-color: var(--yellow);
-  color: #312244;
+  color: var(--dark-purple);
+  margin: 0% auto;
 }
 
 #resume-img{
@@ -37,13 +55,18 @@
 
 .github-logo {
   width: 45px;
+  padding-bottom: 1%;
+  margin-right:2%;
 }
 
-header, footer {
-  background-color: var(--blue);
-  border-bottom: #264653 5px;
-  border-top:#264653 1px; 
-  box-shadow: #264653 1px;
+.logos-footer {
+  width: 45px;
+  padding-bottom: 1%;
+  margin-right:2%;
+}
+
+.logos-footer:hover {
+opacity: 60%;
 }
 
 footer {
@@ -51,7 +74,18 @@ footer {
   bottom: 0px;
 }
 
+.form-container {
+  border-radius: 5px;
+  border: solid 1px var(--dark-orange);
+  background-color: var(--blue);
+}
 
+#form-btn {
+  border-radius:8px;
+  border: solid 1px var(--dark-purple);
+  margin-bottom: 2%;
+  background-color: var(--dark-orange);
+}
 
 
 

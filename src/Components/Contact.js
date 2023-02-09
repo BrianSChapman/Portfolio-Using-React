@@ -7,8 +7,8 @@ export default function Contact() {
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
-  const handleInputChange = (event) => {
-    const { target } = event;
+  const handleInputChange = (e) => {
+    const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
 
@@ -16,13 +16,13 @@ export default function Contact() {
       setName(inputValue);
     } else if (inputType === "email") {
       setEmail(inputValue);
-    } else if (inputType === "message") {
+    } else {
       setMessage(inputValue);
     }
   };
 
-  const handleFormSubmit = (event) => {
-    event.preventDefault();
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
     if (!validateEmail(email) || !name) {
       setErrorMessage(
         "Please provide a valid name and email address. Thank you! :)"
@@ -32,8 +32,8 @@ export default function Contact() {
   };
 
   return (
-    <section className="container">
-      <h1>Say Hey!</h1>
+    <section className="container form-container">
+      <h1 className="text-center">Say Hey!</h1>
       <form>
         <div className="mb-3">
           <label for="exampleFormControlInput1" className="form-label">
@@ -42,6 +42,7 @@ export default function Contact() {
           <input
             value={name}
             type="text"
+            name="name"
             className="form-control"
             onChange={handleInputChange}
             id="exampleFormControlInput1"
@@ -56,6 +57,7 @@ export default function Contact() {
           <input
             value={email}
             type="email"
+            name="email"
             className="form-control"
             onChange={handleInputChange}
             id="exampleFormControlInput1"
@@ -69,6 +71,7 @@ export default function Contact() {
           </label>
           <textarea
             value={message}
+            name="message"
             className="form-control"
             onChange={handleInputChange}
             id="exampleFormControlTextarea1"
@@ -76,7 +79,7 @@ export default function Contact() {
           />
         </div>
         <div className="col-12">
-          <button type="submit" onClick={handleFormSubmit} className="btn">
+          <button type="submit" onClick={handleFormSubmit} className="btn" id="form-btn">
             Send Message
           </button>
         </div>
