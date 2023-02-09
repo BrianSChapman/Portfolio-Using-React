@@ -1,6 +1,15 @@
-main { 
+:root {
+  --blue: #0FA3B1;
+  --cream: #D9E5D6;
+  --yellow: #EDDEA4;
+  --light-orange: #F7A072;
+  --dark-orange: #FF9B42;
+}
+
+
+.main-body { 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #ebe1d0;
+    background-color:var(--cream);
   }
   /* About Me Photo */
   #bio-photo {
@@ -16,12 +25,11 @@ main {
 }
 
 #bio-card {
-  background-color: #F4A261;
+  background-color: var(--yellow);
   color: #312244;
 }
 
 #resume-img{
-
   border-radius: 5px;
   width:600px;
   height: 750px;
@@ -29,12 +37,11 @@ main {
 
 .github-logo {
   width: 45px;
-  height: 45px;
 }
 
 header, footer {
-  background-color:#1ea1aa;
-  border-bottom: #264653 1px;
+  background-color: var(--blue);
+  border-bottom: #264653 5px;
   border-top:#264653 1px; 
   box-shadow: #264653 1px;
 }
@@ -58,13 +65,6 @@ transform: translate(-50%, -50%); */
 
 
   /* Color palette to mess with */
- 
-  section {
-    color: #264653;
-    color: #E9C46A;
-    color: #F4A261;
-    color: #E76F51;
-  } 
 
   /* Dark Mode Colors */
   section {

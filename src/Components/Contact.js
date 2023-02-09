@@ -18,12 +18,9 @@ export default function Contact() {
       setEmail(inputValue);
     } else if (inputType === "message") {
       setMessage(inputValue);
-    } else {
-      setErrorMessage(
-        "Please fill out all fields of the form. Appreciate you! :)"
-      );
     }
   };
+
   const handleFormSubmit = (event) => {
     event.preventDefault();
     if (!validateEmail(email) || !name) {
@@ -32,7 +29,6 @@ export default function Contact() {
       );
       return;
     }
-  
   };
 
   return (
@@ -80,19 +76,16 @@ export default function Contact() {
           />
         </div>
         <div className="col-12">
-          <button
-            type="submit"
-            onClick={handleFormSubmit}
-            className="btn ">
+          <button type="submit" onClick={handleFormSubmit} className="btn">
             Send Message
           </button>
         </div>
       </form>
       {errorMessage && (
         <div>
-            <p className="error-text">{errorMessage}</p>
-            </div> 
+          <p className="error-text">{errorMessage}</p>
+        </div>
       )}
     </section>
   );
-      }
+}

@@ -5,7 +5,7 @@ import "../src/index.css";
 const App = () => {
   return (
    
-    <main>
+    <main id="main-page">
       <PageContainer />
     </main>
   );
