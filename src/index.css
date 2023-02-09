@@ -29,7 +29,7 @@ nav {
   font-size: 16px;
 }
 
-#nav-list:hover {
+#nav-list:hover, #nav-list:focus {
   color: var(--blue);
   border-bottom:solid 2px var(--dark-orange);
 }
@@ -87,16 +87,13 @@ footer {
   background-color: var(--dark-orange);
 }
 
+.email-header, .form-label{
+  color:var(--cream)
+}
 
-
-/* Position the card perfectly but it's too small. */
-/* position: fixed;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%); */
-
-
-
+input {
+  border:var(--dark-purple);
+}
 
   /* Color palette to mess with */
 
