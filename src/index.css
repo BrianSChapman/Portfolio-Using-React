@@ -2,7 +2,7 @@
   --blue: #0FA3B1;
   --cream: #f3f2e6;
   --yellow: #EDDEA4;
-  --light-orange: #F7A072;
+  --red-orange: #e9773a;
   --dark-orange: #FF9B42;
   --dark-purple: #322246;
 }
@@ -13,7 +13,7 @@
 }
 
 nav {
-  margin: 0 0 7% 2%;
+  margin: 0 0 3% 2%;
 }
 
 #nav-name {
@@ -37,12 +37,23 @@ nav {
   /* About Me Photo */
   #bio-photo {
     border-radius: 5px;
-    margin-left: 10px ;
-    margin-top: 45px;
+    margin-top: 2%;
+    height:400px;
+    margin-left: 15%;
+}
+
+#welcome {
+  color:var(--red-orange)
+}
+
+#cover-letter-text {
+  border-radius: 0.25px;
+  border:dotted var(--blue);
+  opacity:65%;
+  padding-left: 15px;
 }
 
 #bio-card {
-  background-color: var(--yellow);
   color: var(--dark-purple);
   margin: 0% auto;
 }
@@ -51,6 +62,14 @@ nav {
   border-radius: 5px;
   width:600px;
   height: 750px;
+}
+
+.about-me-text {
+  font-size:25px;
+}
+
+aside > li,ul {
+  list-style: none;
 }
 
 .github-logo {
