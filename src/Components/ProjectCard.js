@@ -8,7 +8,7 @@ import "../Components/ProjectCardEffect.css";
 export default function ProjectCard({ title, img, alt, description, githubLink, deployment}) {
 
 return ( 
-    <div className="col-6">
+    <div className="col-md-6">
       <div className="card mb-3 project-card shadow ">
         <a href={deployment} target="_blank">
         <img src={img}
