@@ -6,23 +6,22 @@ import leafyboi from "../Images/leafyboi.png";
 
 export default function AboutMe() {
   return (
-    <>
-    {/* <img src={tropical} alt="Image of palm trees" id="tropical-hero" classname="img-fluid text-center"></img> */}
-        <section id="about" className="container-fluid text-center">
-      <h1 id="welcome" className="text-center">Welcome (Afio mai).</h1>
-
+  <>
+        <img src={tropical} alt="Image of palm trees" id="tropical-hero" classname="img-fluid"></img>
+        <div id="welcome" className="text-center">Welcome (Afio mai).</div>        
+          <section id="about" className="container">
       <div className="row align-items-center"></div>
       <div className="col-9">
         <div className="row">
           <div className="col-md-5 col-sm-12">
             <img
-              className="rounded-start border-dark mb-3 card-img"
+              className="rounded-start border-dark card-img"
               id="bio-photo"
               src={headshot}
               alt="Brian Chapman Headshot"
             ></img>
           </div>
-          <div className="col-md-7 col-sm-12">
+          <div className="col-md-7 col-sm-12 text-body-about">
             <p className="about-me-text card-body">
               Hey friends! I'm Brian Chapman, a Southern California native hailing from the mean streets of Philadelphia. </p>
 

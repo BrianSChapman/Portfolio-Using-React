@@ -13,7 +13,7 @@
 }
 
 nav {
-  margin: 0 0 4% 2%;
+  margin: 0 0 1% 2%;
 }
 
 #nav-name {
@@ -33,16 +33,18 @@ nav {
   color: var(--blue);
   border-bottom:solid 2px var(--dark-orange);
 }
-/* 
+
 #tropical-hero {
-  height: 750px;
   width:100%;
-} */
+  opacity: 70%;
+}
 
   /* About Me Photo */
   #bio-photo {
     border-radius: 5px;
 }
+
+
 
 #welcome {
   color:var(--red-orange);
@@ -62,6 +64,10 @@ nav {
 #bio-card {
   color: var(--dark-purple);
   margin: 0% auto;
+}
+
+.text-body-about {
+  border-left: 3px solid var(--blue);
 }
 
 .skills-card {
