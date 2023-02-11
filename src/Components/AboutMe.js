@@ -28,7 +28,7 @@ export default function AboutMe() {
               <p className="about-me-text card-body" id="cover-letter-text"> <em>"Energetic and self-sufficient problem solver striving to utilize
               soft skills learned through customer service and facilities
               coordinating paired with newly acquired web development skills to
-              transition into a f web development position."</em>
+              transition into a web development position."</em>
             </p>
             <p className="about-me-text card-body">...Kinda standard cover letter stuff, right? Real talk - I love working with people, problem solving is my jam, and I'm passionate about creating positive experiences (for the end user and for my colleagues). </p>
             <aside className="text-center">
