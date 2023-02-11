@@ -13,7 +13,7 @@
 }
 
 nav {
-  margin: 0 0 3% 2%;
+  margin: 0 0 4% 2%;
 }
 
 #nav-name {
@@ -33,29 +33,40 @@ nav {
   color: var(--blue);
   border-bottom:solid 2px var(--dark-orange);
 }
+/* 
+#tropical-hero {
+  height: 750px;
+  width:100%;
+} */
 
   /* About Me Photo */
   #bio-photo {
     border-radius: 5px;
-    margin-top: 2%;
-    height:400px;
-    margin-left: 15%;
 }
 
 #welcome {
-  color:var(--red-orange)
+  color:var(--red-orange);
+  font-size: 50px;
+  margin-bottom: 4%;
+  font-weight:700;
 }
 
 #cover-letter-text {
-  border-radius: 0.25px;
-  border:dotted var(--blue);
-  opacity:65%;
-  padding-left: 15px;
+  border-radius: 2px;
+  border:dashed 1px var(--blue);
+  opacity:70%;
+  padding-left: 10px;
+  font-size:20px;
 }
 
 #bio-card {
   color: var(--dark-purple);
   margin: 0% auto;
+}
+
+.skills-card {
+  margin-top: 2%; 
+  margin-bottom: 2%;
 }
 
 #resume-img{
@@ -123,9 +134,10 @@ input {
   bottom: 45px;
 }
 
-/* #plant-img {
+#plant-img {
   z-index: index -1;
-} */
+  position:absolute;
+} 
 
 
 
@@ -137,4 +149,8 @@ input {
     color: #654c6c
   }
 
-  /*  todo: make list of items for resume and then just put a downloadable link. Rework card for About me and make it just on the page. Maybe a parallax photo? */
+  
+@media screen {
+  
+}
+/* todo: between 760px and 1600, About me needs media queries to fix smashing text over image;. */
