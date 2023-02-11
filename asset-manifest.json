@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/if-brian-were-a-react-app/static/css/main.8468475f.css",
-    "main.js": "/if-brian-were-a-react-app/static/js/main.921d44cc.js",
-    "static/media/petPlayDate.png": "/if-brian-were-a-react-app/static/media/petPlayDate.2efcad0ecd81c630c866.png",
-    "static/media/BrianSChapmanResume.png": "/if-brian-were-a-react-app/static/media/BrianSChapmanResume.806ec554ce858a7dd1e9.png",
-    "static/media/Headshot.jpg": "/if-brian-were-a-react-app/static/media/Headshot.4411c72dc909e4f7d833.jpg",
-    "static/media/wordOfMyLife.png": "/if-brian-were-a-react-app/static/media/wordOfMyLife.a6ff4781a67cea1d3f77.png",
-    "static/media/spotifyLogo.png": "/if-brian-were-a-react-app/static/media/spotifyLogo.cd2c2228d20d582d5ef5.png",
-    "static/media/textEditor.png": "/if-brian-were-a-react-app/static/media/textEditor.579d63e31d1d0b510b65.png",
-    "static/media/noteTaker.png": "/if-brian-were-a-react-app/static/media/noteTaker.8ff301faf5f92caa396d.png",
-    "index.html": "/if-brian-were-a-react-app/index.html",
-    "main.8468475f.css.map": "/if-brian-were-a-react-app/static/css/main.8468475f.css.map",
-    "main.921d44cc.js.map": "/if-brian-were-a-react-app/static/js/main.921d44cc.js.map"
+    "main.css": "/BrianSChapman/Brian-S-Chapman-React-Portfolio/static/css/main.9807c97a.css",
+    "main.js": "/BrianSChapman/Brian-S-Chapman-React-Portfolio/static/js/main.ccbc8161.js",
+    "static/media/tropical.jpg": "/BrianSChapman/Brian-S-Chapman-React-Portfolio/static/media/tropical.b17d55254323eb4f00ae.jpg",
+    "static/media/flamingo.png": "/BrianSChapman/Brian-S-Chapman-React-Portfolio/static/media/flamingo.21041a63c738cb2e0ab1.png",
+    "static/media/petPlayDate.png": "/BrianSChapman/Brian-S-Chapman-React-Portfolio/static/media/petPlayDate.2efcad0ecd81c630c866.png",
+    "static/media/BrianSChapmanResume.png": "/BrianSChapman/Brian-S-Chapman-React-Portfolio/static/media/BrianSChapmanResume.0630749023238ebbc74a.png",
+    "static/media/Headshot.jpg": "/BrianSChapman/Brian-S-Chapman-React-Portfolio/static/media/Headshot.4411c72dc909e4f7d833.jpg",
+    "static/media/monster-dashboard-snippet.png": "/BrianSChapman/Brian-S-Chapman-React-Portfolio/static/media/monster-dashboard-snippet.2ae51fa9d477fd85c8b6.png",
+    "static/media/leafyboi.png": "/BrianSChapman/Brian-S-Chapman-React-Portfolio/static/media/leafyboi.9bbd0108c11a7f7cf913.png",
+    "static/media/wordOfMyLife.png": "/BrianSChapman/Brian-S-Chapman-React-Portfolio/static/media/wordOfMyLife.a6ff4781a67cea1d3f77.png",
+    "static/media/textEditor.png": "/BrianSChapman/Brian-S-Chapman-React-Portfolio/static/media/textEditor.579d63e31d1d0b510b65.png",
+    "index.html": "/BrianSChapman/Brian-S-Chapman-React-Portfolio/index.html",
+    "main.9807c97a.css.map": "/BrianSChapman/Brian-S-Chapman-React-Portfolio/static/css/main.9807c97a.css.map",
+    "main.ccbc8161.js.map": "/BrianSChapman/Brian-S-Chapman-React-Portfolio/static/js/main.ccbc8161.js.map"
   },
   "entrypoints": [
-    "static/css/main.8468475f.css",
-    "static/js/main.921d44cc.js"
+    "static/css/main.9807c97a.css",
+    "static/js/main.ccbc8161.js"
   ]
 }
