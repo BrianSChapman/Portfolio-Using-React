@@ -17,7 +17,7 @@ There is no installation necessary for this particular project.
 
 ## Usage
 
-Here's a quick screenshot of the portfolio page below and a the link to the deployment is right [here](https://brianschapman.github.io/if-brian-were-a-react-app/) for you. 
+Here's a quick screenshot of the portfolio page below and a the link to the deployment is right [here]https://brianschapman.github.io/Brian-S-Chapman-React-Portfolio/) for you. 
 
 
 
