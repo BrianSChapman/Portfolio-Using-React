@@ -2,7 +2,7 @@
   "name": "if-brian-were-a-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/BrianSChapman/Brian-S-Chapman-React-Portfolio",
+  "homepage": "https://github.io/BrianSChapman/Brian-S-Chapman-React-Portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.5",
