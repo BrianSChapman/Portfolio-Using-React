@@ -2,11 +2,12 @@ import React, {useState, useEffect } from "react";
 import linkedinLogo from '../Images/linkedin.png'
 import githubLogo from '../Images/githubIcon.png'
 import joke from '../Images/jokeIcon.png'
+import JokeModal from "./JokeModal";
+import useModal from "./useModal";
 
 export default function Footer() {
 
-  
-
+const {isShowing, toggle} = useModal();
 
   
   return (
@@ -14,9 +15,13 @@ export default function Footer() {
      <a href="https://github.com/BrianSChapman" target="_blank"><img src={ githubLogo } className="logos-footer"></img></a> 
      <a href="https://www.linkedin.com/in/brian-siavao-chapman/" target="_blank"><img src={ linkedinLogo } className="logos-footer"></img></a>
 
-      {/*Incorporating dad joke button  */}
-      <a href="https://www.linkedin.com/in/brian-siavao-chapman/" target="_blank"><img src={ joke } className="logos-footer"></img></a>
-
+      {/* <a href="#">
+      <img src={ joke } className="logos-footer" id=
+      "joke-btn"  onClick={toggle}></img></a>
+      <JokeModal
+      isShowing={isShowing}
+      hide={toggle}
+    /> */}
     </footer>
   );
 }

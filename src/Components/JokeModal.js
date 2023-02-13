@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ReactDOM from "react-dom/client";
 
 export default function JokeModal() {
   const [joke, setJoke] = useState("");
@@ -17,29 +18,28 @@ export default function JokeModal() {
     getData()
   }, []);
 
+  const Modal = ({isShowing, hide}) => isShowing ? ReactDOM.createPortal(
+<React.Fragment>
 
-
- 
-  return (
-    <div class="modal" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Dad Joke Time!</h5>
+    <div className="modal" id="joke-modal" tabindex="-1">
+      <div className="modal-dialog">
+        <div className="modal-content">
+          <div className="modal-header">
+            <h5 className="modal-title">Dad Joke Time!</h5>
             <button
               type="button"
-              class="btn-close"
+              className="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">
+          <div className="modal-body">
             <p>{ joke }</p>
           </div>
-          <div class="modal-footer">
+          <div className="modal-footer">
             <button
               type="button"
-              class="btn btn-secondary"
+              className="btn btn-secondary"
               data-bs-dismiss="modal"
             >
               Close
@@ -48,5 +48,6 @@ export default function JokeModal() {
         </div>
       </div>
     </div>
-  );
+    </React.Fragment>, document.body
+  ) : null;
 }
