@@ -20,7 +20,7 @@ nav {
   font-family: 'Megrim', cursive;
   text-decoration: none;
   color: var(--blue);
-  font-size: 60px;
+  font-size: 63px;
 }
 
 #nav-list {
@@ -36,7 +36,11 @@ nav {
 
 #tropical-hero {
   width:100%;
-  opacity: 70%;
+}
+
+#hero-container {
+  position:relative;
+  margin-bottom:5%;
 }
 
   /* About Me Photo */
@@ -44,13 +48,15 @@ nav {
     border-radius: 5px;
 }
 
-
-
 #welcome {
   color:var(--red-orange);
-  font-size: 50px;
+  font-size: 60px;
   margin-bottom: 4%;
   font-weight:700;
+  position:absolute;
+  top:25%;
+  left:34%;
+  border-bottom: solid 1px var(--dark-orange) 
 }
 
 #cover-letter-text {
@@ -59,6 +65,15 @@ nav {
   opacity:70%;
   padding-left: 10px;
   font-size:20px;
+}
+
+.hidden {
+  opacity: 0;
+  transition:all 1s;
+}
+
+.show {
+  opacity:1;
 }
 
 #bio-card {
@@ -83,6 +98,10 @@ nav {
 
 .about-me-text {
   font-size:25px;
+}
+
+#cover-letter-text {
+  font-size: 17px;
 }
 
 aside > li,ul {
@@ -156,7 +175,3 @@ input {
   }
 
   
-@media screen {
-  
-}
-/* todo: between 760px and 1600, About me needs media queries to fix smashing text over image;. */

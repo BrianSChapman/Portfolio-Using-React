@@ -1,14 +1,19 @@
-import React from "react";
+import React, { useState, useEffect} from "react";
 import headshot from "../Images/Headshot.jpg";
 import tropical from "../Images/tropical.jpg";
-import leafyboi from "../Images/leafyboi.png";
-
+import beachy from "../Images/beachy.jpg"
+import shorebreak from "../Images/shorebreak.jpg"
+import useScrollPosition from "./useScrollPosition";
 
 export default function AboutMe() {
+
   return (
   <>
-        <img src={tropical} alt="Image of palm trees" id="tropical-hero" classname="img-fluid"></img>
-        <div id="welcome" className="text-center">Welcome (Afio mai).</div>        
+    <div id="hero-container">
+    <div id="welcome" className="text-center">Welcome (Afio mai).</div>
+        <img src={shorebreak} alt="Image of palm trees" id="tropical-hero" classname="img-fluid"></img>
+  
+        </div>        
           <section id="about" className="container">
       <div className="row align-items-center"></div>
       <div className="col-9">
@@ -25,7 +30,7 @@ export default function AboutMe() {
             <p className="about-me-text card-body">
               Hey friends! I'm Brian Chapman, a Southern California native hailing from the mean streets of Philadelphia. </p>
 
-              <p className="about-me-text card-body" id="cover-letter-text"> <em>"Energetic and self-sufficient problem solver striving to utilize
+              <p className="card-body hidden" id="cover-letter-text"> <em>"Energetic and self-sufficient problem solver striving to utilize
               soft skills learned through customer service and facilities
               coordinating paired with newly acquired web development skills to
               transition into a web development position."</em>
@@ -47,3 +52,4 @@ export default function AboutMe() {
     </>
   );
 }
+
