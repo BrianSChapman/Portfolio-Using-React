@@ -6,6 +6,7 @@ import textEditor from "../Images/textEditor.png";
 import githubIcon from "../Images/githubIcon.png";
 import herokuLogo from "../Images/herokulogo.png";
 import ProjectCard from "../Components/ProjectCard";
+import stoweAway from "../Images/stoweAway.png";
 
 export default function Portfolio() {
   return (
@@ -46,6 +47,14 @@ export default function Portfolio() {
           description="Progressive web app text editor that can be installed onto your device, giving the user functionality even when offline."
           githubLink="https://github.com/BrianSChapman/textual-healing"
           deployment="https://limitless-oasis-11120.herokuapp.com/"
+        />
+        <ProjectCard
+          title="The Stowe Away: Speakeasy Tiki Bar in Stowe, VT"
+          img={stoweAway}
+          Alt="Stowe Away Page Screenshot"
+          description="Website design for a tiki bar/ speakeasy concept using HTML, CSS, JavaScript, and Materialize framework."
+          githubLink="https://github.com/BrianSChapman/the-stowe-away"
+          deployment=" https://brianschapman.github.io/the-stowe-away/"
         />
       </div>
     </section>

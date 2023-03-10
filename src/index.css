@@ -159,19 +159,8 @@ input {
   bottom: 45px;
 }
 
-#plant-img {
-  z-index: index -1;
-  position:absolute;
-} 
-
-
-
-  /* Dark Mode Colors */
-  section {
-    color: #1B3A4B;
-    color:  #065A60;
-    color: #312244;
-    color: #654c6c
-  }
-
+.card-img-top {
+  width:100%;
+  height: 25vw;
+}
   

@@ -10,7 +10,7 @@ export default function AboutMe() {
   return (
   <>
     <div id="hero-container">
-    <div id="welcome" className="text-center shadow-lg">Welcome (Afio mai).</div>
+    <div id="welcome" className="text-center shadow-lg .d-sm-none .d-md-block">Welcome (Afio mai).</div>
         <img src={shorebreak} alt="Image of palm trees" id="tropical-hero" classname="img-fluid"></img>
   
         </div>        

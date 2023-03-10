@@ -15,13 +15,6 @@ const {isShowing, toggle} = useModal();
      <a href="https://github.com/BrianSChapman" target="_blank"><img src={ githubLogo } className="logos-footer"></img></a> 
      <a href="https://www.linkedin.com/in/brian-siavao-chapman/" target="_blank"><img src={ linkedinLogo } className="logos-footer"></img></a>
 
-      {/* <a href="#">
-      <img src={ joke } className="logos-footer" id=
-      "joke-btn"  onClick={toggle}></img></a>
-      <JokeModal
-      isShowing={isShowing}
-      hide={toggle}
-    /> */}
     </footer>
   );
 }
