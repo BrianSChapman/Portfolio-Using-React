@@ -2,7 +2,7 @@
 
 ## Description
 
-As we edge closer to working on MERN stack applications, it was only a matter of time before we made the jump into React. It's a prominent JavaScript is integral to a lot of UI projects. Taking the knowledge of React that I've acquired over the past few lessons, I've taken my OG static portfolio page and given it the React makeover it deserved. 
+My first foray into React, showcasing some projects I've been working on, collaboratively and solo. Hoping to continue to expand, add fun new functionality, and grow with this one! 
 
 ## Table of Contents
 
