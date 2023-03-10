@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio-Using-React/static/css/main.b8a561cf.css",
-    "main.js": "/Portfolio-Using-React/static/js/main.b98c2010.js",
+    "main.css": "/Portfolio-Using-React/static/css/main.b102869d.css",
+    "main.js": "/Portfolio-Using-React/static/js/main.e026e9eb.js",
     "static/media/tropical.jpg": "/Portfolio-Using-React/static/media/tropical.b17d55254323eb4f00ae.jpg",
     "static/media/flamingo.png": "/Portfolio-Using-React/static/media/flamingo.21041a63c738cb2e0ab1.png",
+    "static/media/stoweAway.png": "/Portfolio-Using-React/static/media/stoweAway.654a98bb61b8ad77df80.png",
     "static/media/petPlayDate.png": "/Portfolio-Using-React/static/media/petPlayDate.2efcad0ecd81c630c866.png",
     "static/media/BrianSChapmanResume.png": "/Portfolio-Using-React/static/media/BrianSChapmanResume.0630749023238ebbc74a.png",
     "static/media/Headshot.jpg": "/Portfolio-Using-React/static/media/Headshot.4411c72dc909e4f7d833.jpg",
@@ -13,11 +14,11 @@
     "static/media/shorebreak.jpg": "/Portfolio-Using-React/static/media/shorebreak.2351f2caef953150217d.jpg",
     "static/media/textEditor.png": "/Portfolio-Using-React/static/media/textEditor.579d63e31d1d0b510b65.png",
     "index.html": "/Portfolio-Using-React/index.html",
-    "main.b8a561cf.css.map": "/Portfolio-Using-React/static/css/main.b8a561cf.css.map",
-    "main.b98c2010.js.map": "/Portfolio-Using-React/static/js/main.b98c2010.js.map"
+    "main.b102869d.css.map": "/Portfolio-Using-React/static/css/main.b102869d.css.map",
+    "main.e026e9eb.js.map": "/Portfolio-Using-React/static/js/main.e026e9eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8a561cf.css",
-    "static/js/main.b98c2010.js"
+    "static/css/main.b102869d.css",
+    "static/js/main.e026e9eb.js"
   ]
 }
