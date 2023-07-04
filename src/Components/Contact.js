@@ -105,7 +105,6 @@ export default function Contact() {
       <div>
         <p className="error-text"></p>
       </div>
-      <img className src={flamingo} id="flamingo"></img>
     </section>
    
      </>

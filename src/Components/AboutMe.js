@@ -28,20 +28,20 @@ export default function AboutMe() {
           </div>
           <div className="col-md-7 col-sm-12 text-body-about">
             <p className="about-me-text card-body">
-              Hey friends! I'm Brian Chapman, a Southern California native hailing from the mean streets of Philadelphia. </p>
+              Hello! I'm Brian Chapman, a Southern California native hailing from Philadelphia. </p>
 
               <p className="card-body hidden" id="cover-letter-text"> <em>"Energetic and self-sufficient problem solver striving to utilize
               soft skills learned through customer service and facilities
-              coordinating paired with newly acquired web development skills to
+              coordinating paired with strong web development skills to
               transition into a web development position."</em>
             </p>
-            <p className="about-me-text card-body">...Kinda standard cover letter stuff, right? Real talk - I love working with people, problem solving is my jam, and I'm passionate about creating positive experiences (for the end user and for my colleagues). </p>
+            <p className="about-me-text card-body"> In short, I am a strong collaborator, love to problem solve, adapt to each passing situation, and am passionate about creating positive experiences (for the end user and for my colleagues). </p>
             <aside className="text-center">
-            <h3 id="quick-facts">Quick Facts:</h3>
+            <h3 id="quick-facts"> Quick Facts:</h3>
             <ul>
               <li>Samoan/ Pacific Islander</li>
-              <li>Musician (Toured with a punk band)</li>
-              <li>Unapologetic Tiki Enthusiast</li>
+              <li>Musician</li>
+              <li>Background in marketing</li>
               <li>Forever an optimist</li>
             </ul>
             </aside>
