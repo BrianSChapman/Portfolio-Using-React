@@ -7,6 +7,7 @@ import githubIcon from "../Images/githubIcon.png";
 import herokuLogo from "../Images/herokulogo.png";
 import ProjectCard from "../Components/ProjectCard";
 import stoweAway from "../Images/stoweAway.png";
+import horticurious from "../Images/horticurious.png";
 
 export default function Portfolio() {
   return (
@@ -17,12 +18,12 @@ export default function Portfolio() {
       </p>
       <div className="row">
         <ProjectCard
-          title="Pet Play Date"
-          img={petPlayDate}
-          Alt="Pet Play Date App Screenshot"
-          description="Collaboration on a full-stack app. Create a profile for your pet, match profiles with other pet owners in your area, and schedule pet play dates!"
-          githubLink="https://github.com/BrianSChapman/pet-playdate"
-          deployment="https://salty-sierra-16506.herokuapp.com/"
+          title="Horticurious"
+          img={horticurious}
+          Alt="e-commerce plant store screenshot"
+          description="An e-commerce concept utilizing React, next.js, snipcart, and hygraph to create a clean and flexible user and payment experience"
+          githubLink="https://github.com/BrianSChapman/plant-store-ecommerce"
+          deployment="https://horticurious-plant-store.vercel.app/"
         />
         <ProjectCard
           title="My Friendly Monster"
@@ -56,6 +57,14 @@ export default function Portfolio() {
           githubLink="https://github.com/BrianSChapman/the-stowe-away"
           deployment=" https://brianschapman.github.io/the-stowe-away/"
         />
+             {/* <ProjectCard
+          title="Pet Play Date"
+          img={petPlayDate}
+          Alt="Pet Play Date App Screenshot"
+          description="Collaboration on a full-stack app. Create a profile for your pet, match profiles with other pet owners in your area, and schedule pet play dates!"
+          githubLink="https://github.com/BrianSChapman/pet-playdate"
+          deployment="https://salty-sierra-16506.herokuapp.com/"
+        /> */}
       </div>
     </section>
   );
